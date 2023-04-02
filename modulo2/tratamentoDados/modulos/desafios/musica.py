@@ -4,7 +4,7 @@ import pygame
 pygame.init() # inicializar o pygame no código
 
 pygame.mixer.init() # esse comando server para incializar a produção de música no seu codigo
-pygame.mixer.music.load('caminho musica') # Esse comando recebe como parametro o caminho da musica para ela ser carregada
+pygame.mixer.music.load('music/Ferrugem.mp3') # Esse comando recebe como parametro o caminho da musica para ela ser carregada
 pygame.mixer.music.play() # play na música
 
 while pygame.mixer.music.get_busy():
